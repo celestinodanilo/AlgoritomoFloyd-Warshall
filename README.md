@@ -16,6 +16,8 @@ Geração de um grafo direcionado com as arestas resultantes
 
 Visualização gráfica do grafo com os pesos das arestas
 
+
+
 📋 Pré-requisitos
 Certifique-se de ter instaladas as seguintes bibliotecas Python:
 
@@ -25,6 +27,9 @@ pip install networkx matplotlib
 O algoritmo de Floyd-Warshall compara todas as possíveis rotas entre cada par de vértices, considerando cada vértice como um ponto de passagem intermediário. A cada iteração, ele atualiza a matriz de distâncias caso encontre um caminho mais curto.
 
 A complexidade do algoritmo é O(n³), onde n é o número de vértices.
+
+
+
 
 🖥️ Como Executar
 Execute o script:
@@ -62,6 +67,9 @@ Menores distâncias:
 [3.0, 8.0, 0.0]
 O grafo resultante será exibido com as conexões e seus respectivos pesos.
 
+
+
+
 📁 Estrutura do Código
 Entrada dos dados - Leitura do número de vértices e da matriz de distâncias
 
@@ -71,6 +79,9 @@ Exibição da matriz - Apresentação do resultado no terminal
 
 Visualização gráfica - Construção e exibição do grafo com networkx
 
+
+
+
 📦 Tecnologias Utilizadas
 Python 3.x
 
@@ -79,6 +90,9 @@ math - Para representação de infinito
 networkx - Criação e manipulação de grafos
 
 matplotlib - Visualização gráfica
+
+
+
 
 👤 Autor
 Desenvolvido como parte de estudos sobre algoritmos de grafos e teoria dos grafos.
