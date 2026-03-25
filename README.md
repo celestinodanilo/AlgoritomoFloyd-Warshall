@@ -1,10 +1,10 @@
 # AlgoritomoFloyd-Warshall
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto implementa o **Algoritmo de Floyd-Warshall** em Python, que calcula as menores distâncias entre todos os pares de vértices em um grafo direcionado e ponderado. O programa também exibe uma representação visual do grafo resultante utilizando as bibliotecas `networkx` e `matplotlib`.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - Leitura interativa da matriz de distâncias inicial
 - Suporte a valores infinitos (`inf`) para arestas inexistentes
@@ -13,7 +13,7 @@ Este projeto implementa o **Algoritmo de Floyd-Warshall** em Python, que calcula
 - Geração de um grafo direcionado com as arestas resultantes
 - Visualização gráfica do grafo com os pesos das arestas
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 Certifique-se de ter instaladas as seguintes bibliotecas Python:
 
